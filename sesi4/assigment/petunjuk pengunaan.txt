@@ -1,0 +1,35 @@
+Link Github Assigment 1:
+
+petunjuk penggunaan:
+
+1. buka ArmandoFransiscoOngko_026_assigmeent1.cs mengunakan VSCode dan jalankan (Mono Tested V)
+
+2. run code
+
+3. akan muncul Menu yang menampilkan detail Student dan menu Soal dari 1-6
+
+4. menu dapat dipilih dengan mengisi angka 1-6,dan 7 untuk keluar dari program
+note: terdapat validasi angka.. jdi jika input di luar 1-7.. akan ada pengulangan inputan Choose:
+
+5. menu 1 untuk soal A (alphabet Pyramid)
+note: terdapat validasi angka.. jdi jika input di luar 1-26(sesuai jumlah huruf abjad) 
+akan ada pengulangan inputan Number:
+
+6. menu 2 untuk soal B (Number Pyramid)
+note: sama dengan Menu 1 cara pakainya
+
+7. menu 3 untuk soal C (Faktorial)
+
+8. menu 4 untuk soal D (Reversed Number)
+note: code hanya berjalan untuk inputan angka..karena program di design untuk reversi angka
+
+9. menu 5 untuk soal E (Number Converter) - mengubah angka menjadi huruf kalimat
+
+10. menu 6 untuk soal F (Palindrome Checker)
+note: di menu ini user dapat menuliskan kalimat maupun angka. kemudian program akan mereversi
+inputan tersebut dan memvalidasi apakah inputan yg diberikan merupakan palindrome atau bukan.
+
+Terima Kasih!
+
+Kode Peserta: FSDO001ONL026
+Armando Fransisco Ongko

@@ -9,7 +9,7 @@ class Length{
         Console.WriteLine("panjang Array: "+angka.Length);
 
         for(int i=0;i<angka.Length;i++){
-            angka[i] =i+1;
+            angka[i] =i*i;
         }
 
         Console.Write("Angka dalam Array: ");
