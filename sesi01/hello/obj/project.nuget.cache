@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VGeXxaQkOfpF7wc39GfNdD0+Fsn/0KD2k636iiA/G7A3vjUteyhrRRpexiN3bZvQkegNnYj73qSCJGWDk4+ovg==",
+  "dgSpecHash": "TDqR7YAcDiY6n0DVidpPH16YHp8D7gFGMIMmHf0KNd9uVrG/aywC6bJ2NSMXPYwIFp1FNo2fUwXHN+L//msTJA==",
   "success": true,
-  "projectFilePath": "E:\\1_OCBC\\FullstackDev1\\C#\\sesi1\\hello\\hello.csproj",
+  "projectFilePath": "E:\\1_OCBC\\FullstackDev1\\C#\\sesi01\\hello\\hello.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

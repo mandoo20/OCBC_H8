@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\1_OCBC\\FullstackDev1\\c#\\sesi1\\hello\\hello.csproj",
+      "projectUniqueName": "E:\\1_OCBC\\FullstackDev1\\C#\\sesi01\\hello\\hello.csproj",
       "projectName": "hello",
-      "projectPath": "E:\\1_OCBC\\FullstackDev1\\c#\\sesi1\\hello\\hello.csproj",
+      "projectPath": "E:\\1_OCBC\\FullstackDev1\\C#\\sesi01\\hello\\hello.csproj",
       "packagesPath": "C:\\Users\\arman\\.nuget\\packages\\",
-      "outputPath": "E:\\1_OCBC\\FullstackDev1\\c#\\sesi1\\hello\\obj\\",
+      "outputPath": "E:\\1_OCBC\\FullstackDev1\\C#\\sesi01\\hello\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arman\\AppData\\Roaming\\NuGet\\NuGet.Config",
