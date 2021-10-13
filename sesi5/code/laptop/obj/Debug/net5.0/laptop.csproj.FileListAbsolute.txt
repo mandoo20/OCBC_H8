@@ -1,0 +1,16 @@
+E:\1_OCBC\FullstackDev1\C#\sesi5\code\laptop\obj\Debug\net5.0\laptop.csproj.AssemblyReference.cache
+E:\1_OCBC\FullstackDev1\C#\sesi5\code\laptop\obj\Debug\net5.0\laptop.GeneratedMSBuildEditorConfig.editorconfig
+E:\1_OCBC\FullstackDev1\C#\sesi5\code\laptop\obj\Debug\net5.0\laptop.AssemblyInfoInputs.cache
+E:\1_OCBC\FullstackDev1\C#\sesi5\code\laptop\obj\Debug\net5.0\laptop.AssemblyInfo.cs
+E:\1_OCBC\FullstackDev1\C#\sesi5\code\laptop\obj\Debug\net5.0\laptop.csproj.CoreCompileInputs.cache
+E:\1_OCBC\FullstackDev1\C#\sesi5\code\laptop\bin\Debug\net5.0\laptop.exe
+E:\1_OCBC\FullstackDev1\C#\sesi5\code\laptop\bin\Debug\net5.0\laptop.deps.json
+E:\1_OCBC\FullstackDev1\C#\sesi5\code\laptop\bin\Debug\net5.0\laptop.runtimeconfig.json
+E:\1_OCBC\FullstackDev1\C#\sesi5\code\laptop\bin\Debug\net5.0\laptop.runtimeconfig.dev.json
+E:\1_OCBC\FullstackDev1\C#\sesi5\code\laptop\bin\Debug\net5.0\laptop.dll
+E:\1_OCBC\FullstackDev1\C#\sesi5\code\laptop\bin\Debug\net5.0\ref\laptop.dll
+E:\1_OCBC\FullstackDev1\C#\sesi5\code\laptop\bin\Debug\net5.0\laptop.pdb
+E:\1_OCBC\FullstackDev1\C#\sesi5\code\laptop\obj\Debug\net5.0\laptop.dll
+E:\1_OCBC\FullstackDev1\C#\sesi5\code\laptop\obj\Debug\net5.0\ref\laptop.dll
+E:\1_OCBC\FullstackDev1\C#\sesi5\code\laptop\obj\Debug\net5.0\laptop.pdb
+E:\1_OCBC\FullstackDev1\C#\sesi5\code\laptop\obj\Debug\net5.0\laptop.genruntimeconfig.cache
