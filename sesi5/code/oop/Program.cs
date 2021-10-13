@@ -37,7 +37,8 @@ namespace oop
         {
             int choose, bil1, bil2;
             double num;
-            string n, name;
+            string name;
+            char n;
 
             do
             {
@@ -78,8 +79,8 @@ namespace oop
                             psJet.terbangJet();
 
                             Console.Write("\nBack to Home Page[y/n]: ");
-                            n = Console.ReadLine();
-                            if (n == "n")
+                            n = char.Parse(Console.ReadLine());
+                            if (n == 'n')
                                 choose = 5;
 
                             break;
@@ -101,8 +102,9 @@ namespace oop
                             Console.WriteLine("\n\n");
 
                             Console.Write("\nBack to Home Page[y/n]: ");
-                            n = Console.ReadLine();
-                            if (n == "n")
+                            n = char.Parse(Console.ReadLine());
+
+                            if (n == 'n')
                                 choose = 5;
 
                             break;
@@ -129,8 +131,9 @@ namespace oop
 
 
                             Console.Write("\nBack to Home Page[y/n]: ");
-                            n = Console.ReadLine();
-                            if (n == "n")
+                            n = char.Parse(Console.ReadLine());
+
+                            if (n == 'n')
                                 choose = 5;
 
                             break;
@@ -147,8 +150,9 @@ namespace oop
                             Console.WriteLine("untuk Kelas C# dari Pertemuan 1 -5 cukup menyenangkan \ndan lancar, terus sangat membantu saya membiasakan \nkembali mengetik syntak-syntak C yang dulu sangat \nsering saya pakai selama semester 1- 3 dalam nugas \nmaupun latihan logic di Codeforce/Vjudge.");
 
                             Console.Write("\nBack to Home Page[y/n]: ");
-                            n = Console.ReadLine();
-                            if (n == "n")
+                            n = char.Parse(Console.ReadLine());
+
+                            if (n == 'n')
                                 choose = 5;
 
                             break;
