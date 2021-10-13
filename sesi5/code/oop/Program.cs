@@ -80,9 +80,8 @@ namespace oop
                             Console.Write("\nBack to Home Page[y/n]: ");
                             n = Console.ReadLine();
                             if (n == "n")
-                            {
                                 choose = 5;
-                            }
+
                             break;
                         }
                     case 2:
@@ -104,9 +103,8 @@ namespace oop
                             Console.Write("\nBack to Home Page[y/n]: ");
                             n = Console.ReadLine();
                             if (n == "n")
-                            {
                                 choose = 5;
-                            }
+
                             break;
                         }
                     case 3:
@@ -133,9 +131,8 @@ namespace oop
                             Console.Write("\nBack to Home Page[y/n]: ");
                             n = Console.ReadLine();
                             if (n == "n")
-                            {
                                 choose = 5;
-                            }
+
                             break;
                         }
                     case 4:
@@ -152,9 +149,8 @@ namespace oop
                             Console.Write("\nBack to Home Page[y/n]: ");
                             n = Console.ReadLine();
                             if (n == "n")
-                            {
                                 choose = 5;
-                            }
+
                             break;
                         }
                     default:
@@ -167,6 +163,7 @@ namespace oop
             Console.WriteLine("\n\n\n\nThank You!");
 
         }
+
     }
 
 }
