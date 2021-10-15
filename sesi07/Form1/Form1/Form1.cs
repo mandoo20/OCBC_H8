@@ -36,7 +36,7 @@ namespace Form1
 
 
 			if (db.Count() == 1)
-				MessageBox.Show("Success you will Login as" + db.Results(0, " names"));
+				MessageBox.Show("Success you will Login as " + db.Results(0, "names"));
 			else
 				MessageBox.Show("Wrong username and password combination");
 
