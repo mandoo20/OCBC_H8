@@ -336,11 +336,11 @@
           "lib/net5.0/Zstandard.Net.dll": {}
         }
       },
-      "MySql.EntityFrameworkCore/5.0.0": {
+      "MySql.EntityFrameworkCore/5.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.0",
-          "MySql.Data": "8.0.23"
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.5",
+          "MySql.Data": "8.0.26"
         },
         "compile": {
           "lib/netstandard2.1/MySql.EntityFrameworkCore.dll": {}
@@ -1190,16 +1190,16 @@
         "mysql.data.nuspec"
       ]
     },
-    "MySql.EntityFrameworkCore/5.0.0": {
-      "sha512": "1oa4T5poCKEbKczGWNT2vKjsaqDvRXhg9Hwzu7XLWvWrKNbyj6yUsAIBnl49Hs1mTaGHDJjoAHTbbvNPDEnhGg==",
+    "MySql.EntityFrameworkCore/5.0.5": {
+      "sha512": "gwhA+gG12CGshmStVbzrHgM2EA3+4TCL4kjA3RUk4raBbpNgCVDFkTq3J/DSx6zqg3w98ehz1xFddNA9FOsnCQ==",
       "type": "package",
-      "path": "mysql.entityframeworkcore/5.0.0",
+      "path": "mysql.entityframeworkcore/5.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.1/MySql.EntityFrameworkCore.dll",
         "lib/netstandard2.1/MySql.EntityFrameworkCore.xml",
-        "mysql.entityframeworkcore.5.0.0.nupkg.sha512",
+        "mysql.entityframeworkcore.5.0.5.nupkg.sha512",
         "mysql.entityframeworkcore.nuspec"
       ]
     },
@@ -1789,7 +1789,7 @@
     "net5.0": [
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.11",
       "MySql.Data >= 8.0.26",
-      "MySql.EntityFrameworkCore >= 5.0.0",
+      "MySql.EntityFrameworkCore >= 5.0.5",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -1844,7 +1844,7 @@
           },
           "MySql.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[5.0.0, )"
+            "version": "[5.0.5, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

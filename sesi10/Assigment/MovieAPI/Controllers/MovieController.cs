@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-
+using MovieAPI.Data;
 using MovieAPI.Models;
 
 namespace MovieAPI.Controllers
@@ -12,29 +12,78 @@ namespace MovieAPI.Controllers
     [ApiController]
     public class MovieController : ControllerBase
     {
-        private MovieContext _context;
+        private ApiDbContext _context;
 
-        public MovieController(MovieContext context)
+        public MovieController(ApiDbContext context)
         {
-            this._context = context;
+            _context = context;
         }
 
-        //GET: api/User
-
-        [HttpGet]
-        public ActionResult<IEnumerable<MovieItem>> GetMovieItems()
+       [HttpGet]
+        public async Task<IActionResult> GetItem()
         {
-            _context = HttpContext.RequestServices.GetService(typeof(MovieContext)) as MovieContext;
-            //return new string[1]
-            return _context.GetAllMovie();
+            var items = await _context.movie.ToListAsync();
+            return Ok(items);
         }
 
-        //GET: api/user/{id}
-        [HttpGet("{id}",Name = "Get")]
-        public  ActionResult<IEnumerable<MovieItem>> GetEmployeeItem(String id)
+        [HttpPost]
+        public async Task<IActionResult> CreateItem(MovieData data)
         {
-            _context = HttpContext.RequestServices.GetService(typeof(MovieContext)) as MovieContext;
-            return _context.GetMovie(id);
+            if (ModelState.IsValid)
+            {
+                await _context.movie.AddAsync(data);
+                await _context.SaveChangesAsync();
+
+                return CreatedAtAction("GetItem", new { data.id }, data);
+            }
+
+            return new JsonResult("Something went wrong") { StatusCode = 500 };
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetItem(int id)
+        {
+            var item = await _context.movie.FirstOrDefaultAsync(x => x.id == id);
+
+            if (item == null)
+                return NotFound();
+            return Ok(item);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateItem(int id, MovieData item)
+        {
+            if (id != item.id)
+                return BadRequest();
+
+            var existItem = await _context.movie.FirstOrDefaultAsync(x => x.id == id);
+
+            if (existItem == null)
+                return NotFound();
+
+            existItem.nama = item.nama;
+            existItem.genre = item.genre;
+            existItem.duration = item.duration;
+            existItem.releaseDate = item.releaseDate;
+
+            //Implement the changes on the database leveel
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteItem(int id)
+        {
+            var existItem = await _context.movie.FirstOrDefaultAsync(x => x.id == id);
+
+            if (existItem == null)
+                return NotFound();
+
+            _context.movie.Remove(existItem);
+            await _context.SaveChangesAsync();
+
+            return Ok(existItem);
         }
     }
 }

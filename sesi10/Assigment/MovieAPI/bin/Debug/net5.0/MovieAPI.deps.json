@@ -35,7 +35,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Tools": "5.0.11",
           "MySql.Data": "8.0.26",
-          "MySql.EntityFrameworkCore": "5.0.0",
+          "MySql.EntityFrameworkCore": "5.0.5",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
@@ -570,15 +570,15 @@
           "lib/net5.0/Zstandard.Net.dll": {}
         }
       },
-      "MySql.EntityFrameworkCore/5.0.0": {
+      "MySql.EntityFrameworkCore/5.0.5": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "5.0.11",
           "MySql.Data": "8.0.26"
         },
         "runtime": {
           "lib/netstandard2.1/MySql.EntityFrameworkCore.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.0.0"
+            "assemblyVersion": "5.0.5.0",
+            "fileVersion": "5.0.5.0"
           }
         },
         "compile": {
@@ -2590,12 +2590,12 @@
       "path": "mysql.data/8.0.26",
       "hashPath": "mysql.data.8.0.26.nupkg.sha512"
     },
-    "MySql.EntityFrameworkCore/5.0.0": {
+    "MySql.EntityFrameworkCore/5.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1oa4T5poCKEbKczGWNT2vKjsaqDvRXhg9Hwzu7XLWvWrKNbyj6yUsAIBnl49Hs1mTaGHDJjoAHTbbvNPDEnhGg==",
-      "path": "mysql.entityframeworkcore/5.0.0",
-      "hashPath": "mysql.entityframeworkcore.5.0.0.nupkg.sha512"
+      "sha512": "sha512-gwhA+gG12CGshmStVbzrHgM2EA3+4TCL4kjA3RUk4raBbpNgCVDFkTq3J/DSx6zqg3w98ehz1xFddNA9FOsnCQ==",
+      "path": "mysql.entityframeworkcore/5.0.5",
+      "hashPath": "mysql.entityframeworkcore.5.0.5.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/5.6.3": {
       "type": "package",

@@ -45,3 +45,4 @@ E:\1_OCBC\FullstackDev1\C#\sesi10\Assigment\MovieAPI\obj\Debug\net5.0\MovieAPI.d
 E:\1_OCBC\FullstackDev1\C#\sesi10\Assigment\MovieAPI\obj\Debug\net5.0\ref\MovieAPI.dll
 E:\1_OCBC\FullstackDev1\C#\sesi10\Assigment\MovieAPI\obj\Debug\net5.0\MovieAPI.pdb
 E:\1_OCBC\FullstackDev1\C#\sesi10\Assigment\MovieAPI\obj\Debug\net5.0\MovieAPI.genruntimeconfig.cache
+E:\1_OCBC\FullstackDev1\C#\sesi10\Assigment\MovieAPI\obj\Debug\net5.0\MovieAPI.csproj.CopyComplete

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CY4ucT5zzyrYUXUnAvLPnUMtv9oR1cFVtjvjL3fSl1vIgZr51fBSAyRC8v8VSlAUuPyphEvykkgZQEVwiibLBg==",
+  "dgSpecHash": "XIHejgJd8eHmg9nV2OH0wmeuo6087PBYAjkOSFf76/4s1H0cfJI/LiNzOph8RagRw1hjnnXwWUtXrBnmydbHRg==",
   "success": true,
   "projectFilePath": "E:\\1_OCBC\\FullstackDev1\\C#\\sesi10\\Assigment\\MovieAPI\\MovieAPI.csproj",
   "expectedPackageFiles": [
@@ -31,7 +31,7 @@
     "C:\\Users\\arman\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\arman\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\arman\\.nuget\\packages\\mysql.data\\8.0.26\\mysql.data.8.0.26.nupkg.sha512",
-    "C:\\Users\\arman\\.nuget\\packages\\mysql.entityframeworkcore\\5.0.0\\mysql.entityframeworkcore.5.0.0.nupkg.sha512",
+    "C:\\Users\\arman\\.nuget\\packages\\mysql.entityframeworkcore\\5.0.5\\mysql.entityframeworkcore.5.0.5.nupkg.sha512",
     "C:\\Users\\arman\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\arman\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\arman\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
