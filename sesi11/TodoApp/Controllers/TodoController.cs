@@ -69,7 +69,7 @@ namespace TodoApp.Controllers
             //Implement the changes on the database leveel
             await _context.SaveChangesAsync();
 
-            return NoContent();
+            return Ok("Update Success");
         }
 
         [HttpDelete("{id}")]

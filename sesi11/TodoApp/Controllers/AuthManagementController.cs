@@ -169,7 +169,7 @@ namespace TodoApp.Controllers
                     new Claim(JwtRegisteredClaimNames.Sub, user.Email),
                     new Claim(JwtRegisteredClaimNames.Jti,Guid.NewGuid().ToString())
                 }),
-                Expires = DateTime.UtcNow.AddSeconds(60), //5-10
+                Expires = DateTime.UtcNow.AddSeconds(30), //5-10
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
 
@@ -296,7 +296,7 @@ namespace TodoApp.Controllers
             }
             catch (Exception ex)
             {
-                if(ex.Message.Contains("Lifetime validation failed.the token is expired.")) {
+                if(ex.Message.Contains("Lifetime validation failed. The token is expired.")) {
                     return new AuthResult() {
                         Succeess = false,
                         Errors = new List<string>() {
@@ -308,7 +308,7 @@ namespace TodoApp.Controllers
                     return new AuthResult() {
                         Succeess = false,
                         Errors = new List<string>() {
-                            "Something wen wrong."
+                            "Something went wrong."
                         }
                     };
                 }
