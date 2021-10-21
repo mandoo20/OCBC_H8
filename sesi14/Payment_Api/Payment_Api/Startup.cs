@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -11,11 +12,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using UnitTest_mok.Models;
-using Microsoft.EntityFrameworkCore;
-using UnitTest_mok.Services;
+using Payment_Api.Data;
 
-namespace UnitTest_mok
+namespace Payment_Api
 {
     public class Startup
     {
@@ -29,17 +28,16 @@ namespace UnitTest_mok
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<AppDbContext>(options => options.UseSqlite(
+                Configuration.GetConnectionString("DefaultConnection")
+            ));
+
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "UnitTest_mok", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Payment_Api", Version = "v1" });
             });
-
-            #region Connection String
-            services.AddDbContext<AppDbContext>(item => item.UseSqlServer(Configuration.GetConnectionString("myconn")));
-            #endregion
-            services.AddScoped<IEmployeeService, EmployeeService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,7 +47,7 @@ namespace UnitTest_mok
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "UnitTest_mok v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Payment_Api v1"));
             }
 
             //app.UseHttpsRedirection();
