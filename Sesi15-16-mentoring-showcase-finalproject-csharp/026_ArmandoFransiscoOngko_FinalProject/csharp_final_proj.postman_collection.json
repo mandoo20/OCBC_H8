@@ -1,0 +1,258 @@
+{
+	"info": {
+		"_postman_id": "8e7cec99-3ab2-41a0-8a42-76ad3aa316fe",
+		"name": "csharp_final_proj",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://csharp-final-proj-armando.herokuapp.com/api/authmanagement/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"mandoo\",\r\n  \"email\": \"mandoo@example.com\",\r\n  \"password\": \"Pass123!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://csharp-final-proj-armando.herokuapp.com/api/authmanagement/register",
+					"protocol": "https",
+					"host": [
+						"csharp-final-proj-armando",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"authmanagement",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://csharp-final-proj-armando.herokuapp.com/api/AuthManagement/Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"armandoo@example.com\",\r\n  \"password\": \"Pass123!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://csharp-final-proj-armando.herokuapp.com/api/AuthManagement/Login",
+					"protocol": "https",
+					"host": [
+						"csharp-final-proj-armando",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"AuthManagement",
+						"Login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://csharp-final-proj-armando.herokuapp.com/api/authmanagement/refreshtoken",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ZTgyOTAxLWQ5ZDktNGNhYi1hYmNmLWJhZTg5YjE3ZjNiYyIsImVtYWlsIjoiYXJtYW5kb29AZXhhbXBsZS5jb20iLCJzdWIiOiJhcm1hbmRvb0BleGFtcGxlLmNvbSIsImp0aSI6IjNjOTlhOTE3LWU5OGQtNGFlMy1iMzViLWMyOWZkMGEwMzI4MSIsIm5iZiI6MTYzNDg2NzU5MCwiZXhwIjoxNjM0ODY5MzkwLCJpYXQiOjE2MzQ4Njc1OTB9.1RpFwK6P7PaNdvyg71Mhv0ulfEfWIo5iWkTrXfjzMoU\",\r\n        \"refreshToken\": \"111NUWXIE0JXHDUQEQFAA260U1U7TY5QRBK5ca1f59e-09bf-45ca-aa2e-160948409e73\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://csharp-final-proj-armando.herokuapp.com/api/authmanagement/refreshtoken",
+					"protocol": "https",
+					"host": [
+						"csharp-final-proj-armando",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"authmanagement",
+						"refreshtoken"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://csharp-final-proj-armando.herokuapp.com/api/PaymentDetail",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ZTgyOTAxLWQ5ZDktNGNhYi1hYmNmLWJhZTg5YjE3ZjNiYyIsImVtYWlsIjoiYXJtYW5kb29AZXhhbXBsZS5jb20iLCJzdWIiOiJhcm1hbmRvb0BleGFtcGxlLmNvbSIsImp0aSI6IjNjOTlhOTE3LWU5OGQtNGFlMy1iMzViLWMyOWZkMGEwMzI4MSIsIm5iZiI6MTYzNDg2NzU5MCwiZXhwIjoxNjM0ODY5MzkwLCJpYXQiOjE2MzQ4Njc1OTB9.1RpFwK6P7PaNdvyg71Mhv0ulfEfWIo5iWkTrXfjzMoU",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://csharp-final-proj-armando.herokuapp.com/api/PaymentDetail",
+					"protocol": "https",
+					"host": [
+						"csharp-final-proj-armando",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentDetail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://csharp-final-proj-armando.herokuapp.com/api/PaymentDetail",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ZTgyOTAxLWQ5ZDktNGNhYi1hYmNmLWJhZTg5YjE3ZjNiYyIsImVtYWlsIjoiYXJtYW5kb29AZXhhbXBsZS5jb20iLCJzdWIiOiJhcm1hbmRvb0BleGFtcGxlLmNvbSIsImp0aSI6IjNjOTlhOTE3LWU5OGQtNGFlMy1iMzViLWMyOWZkMGEwMzI4MSIsIm5iZiI6MTYzNDg2NzU5MCwiZXhwIjoxNjM0ODY5MzkwLCJpYXQiOjE2MzQ4Njc1OTB9.1RpFwK6P7PaNdvyg71Mhv0ulfEfWIo5iWkTrXfjzMoU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"paymentDetailId\": 0,\r\n  \"cardOwnerName\": \"026_Armando\",\r\n  \"cardNumber\": \"12312312\",\r\n  \"expirationDate\": \"2025-10-10\",\r\n  \"securityCode\": \"12345\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://csharp-final-proj-armando.herokuapp.com/api/PaymentDetail",
+					"protocol": "https",
+					"host": [
+						"csharp-final-proj-armando",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentDetail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://csharp-final-proj-armando.herokuapp.com/api/PaymentDetail/3",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ZTgyOTAxLWQ5ZDktNGNhYi1hYmNmLWJhZTg5YjE3ZjNiYyIsImVtYWlsIjoiYXJtYW5kb29AZXhhbXBsZS5jb20iLCJzdWIiOiJhcm1hbmRvb0BleGFtcGxlLmNvbSIsImp0aSI6IjNjOTlhOTE3LWU5OGQtNGFlMy1iMzViLWMyOWZkMGEwMzI4MSIsIm5iZiI6MTYzNDg2NzU5MCwiZXhwIjoxNjM0ODY5MzkwLCJpYXQiOjE2MzQ4Njc1OTB9.1RpFwK6P7PaNdvyg71Mhv0ulfEfWIo5iWkTrXfjzMoU",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://csharp-final-proj-armando.herokuapp.com/api/PaymentDetail/3",
+					"protocol": "https",
+					"host": [
+						"csharp-final-proj-armando",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentDetail",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://csharp-final-proj-armando.herokuapp.com/api/PaymentDetail/3",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ZTgyOTAxLWQ5ZDktNGNhYi1hYmNmLWJhZTg5YjE3ZjNiYyIsImVtYWlsIjoiYXJtYW5kb29AZXhhbXBsZS5jb20iLCJzdWIiOiJhcm1hbmRvb0BleGFtcGxlLmNvbSIsImp0aSI6IjNjOTlhOTE3LWU5OGQtNGFlMy1iMzViLWMyOWZkMGEwMzI4MSIsIm5iZiI6MTYzNDg2NzU5MCwiZXhwIjoxNjM0ODY5MzkwLCJpYXQiOjE2MzQ4Njc1OTB9.1RpFwK6P7PaNdvyg71Mhv0ulfEfWIo5iWkTrXfjzMoU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"paymentDetailId\": 3,\r\n    \"cardOwnerName\": \"026_Armando_Fransisco_Ongko\",\r\n    \"cardNumber\": \"12312312\",\r\n    \"expirationDate\": \"2025-10-10\",\r\n    \"securityCode\": \"12345\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://csharp-final-proj-armando.herokuapp.com/api/PaymentDetail/3",
+					"protocol": "https",
+					"host": [
+						"csharp-final-proj-armando",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentDetail",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://csharp-final-proj-armando.herokuapp.com/api/PaymentDetail/3",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ZTgyOTAxLWQ5ZDktNGNhYi1hYmNmLWJhZTg5YjE3ZjNiYyIsImVtYWlsIjoiYXJtYW5kb29AZXhhbXBsZS5jb20iLCJzdWIiOiJhcm1hbmRvb0BleGFtcGxlLmNvbSIsImp0aSI6IjNjOTlhOTE3LWU5OGQtNGFlMy1iMzViLWMyOWZkMGEwMzI4MSIsIm5iZiI6MTYzNDg2NzU5MCwiZXhwIjoxNjM0ODY5MzkwLCJpYXQiOjE2MzQ4Njc1OTB9.1RpFwK6P7PaNdvyg71Mhv0ulfEfWIo5iWkTrXfjzMoU",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://csharp-final-proj-armando.herokuapp.com/api/PaymentDetail/3",
+					"protocol": "https",
+					"host": [
+						"csharp-final-proj-armando",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"PaymentDetail",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

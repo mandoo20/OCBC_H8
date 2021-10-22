@@ -1,0 +1,26 @@
+tugas final project untuk besok
+- buat sesuaikan kode.id
+- menggunakan mysql
+
+format pengiriman
+- Buat folder KodePeserta_Nama_Peserta_FinalProject v
+- Taruh Project di folder KodePeserta_Nama_Peserta_FinalProject v
+- Save fileexport file database [NamaDatabase].SQL v
+- Buat Panduan Penggunaan Setiap End Point (msql v)
+- Export File Postman Penggunaan Api(End Point) v
+- Screenshot Hasil Project Setiap End Point v
+- Push Dulu ke github (Taruh link github)
+- Push heroku (Sertakan Link Heroku & Tata cara penggunaan di heroku)
+
+- KodePeserta_Nama_Peserta_FinalProject
+--- ProjectFile
+--- Screenshot
+--- Cara_Penggunaan_Api_Local.txt
+--- Cara_Penggunaan_Heroku.txt
+--- FileExportPostman
+--- FileExportMySQL
+--- LinkGithubheroku
+
+Jika tugas final project sudah dibuat,
+bisa lanjutkan untuk push ke heroku
+dan test untuk docker local nya
