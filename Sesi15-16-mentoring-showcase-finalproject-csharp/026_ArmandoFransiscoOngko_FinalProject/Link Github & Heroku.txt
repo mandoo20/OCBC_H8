@@ -1,0 +1,2 @@
+Link Github versi local  MySQL : https://github.com/mandoo20/OCBC_H8/tree/main/sesi14/FinalProject/MySQL
+Link Github versi Docker&Heroku : 
