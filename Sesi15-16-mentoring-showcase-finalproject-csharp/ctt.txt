@@ -24,3 +24,6 @@ format pengiriman
 Jika tugas final project sudah dibuat,
 bisa lanjutkan untuk push ke heroku
 dan test untuk docker local nya
+
+
+selamat siang, perkenalkan nama saya Armando 

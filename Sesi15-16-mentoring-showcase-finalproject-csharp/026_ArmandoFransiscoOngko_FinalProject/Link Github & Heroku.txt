@@ -1,2 +1,4 @@
 Link Github versi local  MySQL : https://github.com/mandoo20/OCBC_H8/tree/main/sesi14/FinalProject/MySQL
-Link Github versi Docker&Heroku : 
+Link Github versi Docker&Heroku : https://github.com/mandoo20/OCBC_H8/tree/main/sesi14/FinalProject
+
+Link Heroku : https://csharp-final-proj-armando.herokuapp.com/

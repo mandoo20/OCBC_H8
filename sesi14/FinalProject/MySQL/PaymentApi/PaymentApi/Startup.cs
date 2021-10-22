@@ -46,7 +46,7 @@ namespace PaymentApi
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Title = "PaymentDetail",
+                    Title = "PaymentApi",
                     Version = "v1",
                     Description = "Authentication and Authorization in ASP.NET 5 with JWT and Swagger"
                 });
