@@ -120,7 +120,14 @@ namespace PaymentApi.Controllers
 
                 var jwtToken = GenerateJwtToken(existingUser);
 
-                return Ok(jwtToken);
+                return Ok(new GlobalResponse()
+                {
+                    Message = new List<string>() {
+                        "Message: " + "Login Successfully!",
+                    },
+                    result = jwtToken,
+                    Success = true
+                });
             }
 
             return BadRequest(new RegistrationResponse()

@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PaymentApi.Data;
 using PaymentApi.Models;
+using PaymentApi.Models.DTOs.Responses;
 
 namespace MovieAPI.Controllers
 {
@@ -73,7 +74,13 @@ namespace MovieAPI.Controllers
             //Implement the changes on the database leveel
             await _context.SaveChangesAsync();
 
-            return Ok("Update Success!!");
+            return Ok(new GlobalResponse()
+            {   
+                Message = new List<string>() {
+                        "Message: " + "Update Successfully!!",
+                },
+                Success = true
+            });
         }
 
         [HttpDelete("{id}")]
@@ -87,7 +94,13 @@ namespace MovieAPI.Controllers
             _context.Payments.Remove(existItem);
             await _context.SaveChangesAsync();
 
-            return Ok("Delete Success!!");
+            return Ok(new GlobalResponse()
+            {   
+                Message = new List<string>() {
+                        "Message: " + "Delete Successfully",
+                },
+                Success = true
+            });
         }
     }
 }
